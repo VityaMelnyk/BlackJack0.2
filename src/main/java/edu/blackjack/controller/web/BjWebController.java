@@ -104,9 +104,9 @@ public class BjWebController {
         System.out.println(delivery);
         /*round.setDeliveryComp(forComp);*/
         round.setFinish(LocalDateTime.now());
-        if (massageUlt.equals("You are WinNer"))
+        if (massageUlt.equals("You are Winner"))
         round.setWinner(true);
-        if (massageUlt.equals("Yoe are LoOser"))
+        if (massageUlt.equals("You are Loser"))
         round.setWinner(false);
         round.setScore(score);
         round.setDelivery(delivery);
